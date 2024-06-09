@@ -1,0 +1,18 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation: box1 2s linear infinite forwards;
+    /*
+    animation: name time function delay iteration count direction
+    */
+}
+
+@keyframes box1 {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(600px);
+    }
+}
